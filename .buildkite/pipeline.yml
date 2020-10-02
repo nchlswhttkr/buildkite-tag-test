@@ -1,0 +1,6 @@
+steps:
+  - command: echo Run me!
+    agents:
+      localhost: !!str true
+  - command: echo Skip me!
+    branches: !main
