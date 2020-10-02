@@ -3,4 +3,4 @@ steps:
     agents:
       localhost: !!str true
   - command: echo Skip me!
-    branches: '!main'
+    branches: !undefinedtag '!main'
