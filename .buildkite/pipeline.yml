@@ -1,3 +1,5 @@
+%TAG ! tag:example.com,2020:
+---
 steps:
   - command: echo Run me!
     agents:
